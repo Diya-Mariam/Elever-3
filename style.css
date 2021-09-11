@@ -1,0 +1,104 @@
+body{
+    /*background-image: linear-gradient(to right top, #74124a, #7e0e55, #870a61, #8f066f, #97057d, #a01f8a, #a83096, #b13ea3, #be58b0, #ca70bd, #d787cb, #e39ed8); */
+     background-image: linear-gradient(to right top, #640522, #690524, #6e0626, #740628, #79072a, #851735, #912440, #9d304c, #b24865, #c65f7e, #da7698, #ed8eb3);
+    /* background-image: linear-gradient(to right top, #71071e, #6f071b, #6e0817, #6c0814, #6a0910, #761018, #811621, #8d1c2a, #aa2a44, #c63a60, #e24c80, #fb5fa3); */
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100vh;
+}
+
+.main-container{  
+    padding-top: 10px;
+    
+}
+
+h2{
+    font-size: 29px;
+    font-family: fantasy, sans-serif;
+    color: rgb(224, 210, 10);
+    padding-left: 35px;
+    padding-bottom: 30px;
+}
+
+.container{
+    width: 50%;
+    height: 400px;
+    padding: 20px;
+    padding-bottom: 30px;
+    margin: auto;
+    border: 1px solid rgb(233, 169, 169);;
+    background-color: rgb(212, 200, 23);
+    text-align: center;
+}
+
+.container .bottom{
+    padding-bottom: 28px;
+}
+
+a{
+    text-decoration: none;
+    text-align: center;
+}
+
+a:hover{
+    opacity: 0.8;
+}
+
+.top h1{
+    font-size: 32px;
+    color: black;
+    font-weight: bold;
+    text-decoration: underline;
+    
+}
+
+.btn{
+    background-color: rgb(19, 19, 119);
+    border-radius: 17px;
+    padding: 10px 25px;
+    color: white;
+}
+
+/* MEDIA QUERIES */
+@media(max-width:1250px) {
+    .body{
+        width: 100%;
+        height: 100vh;
+        padding-bottom: 0px;
+        
+    }
+
+    .container{
+        padding-top: 2px;
+        height: 478px;
+    }
+
+    .btn{
+        display: none;
+    }
+}
+
+@media(max-width:806px) {
+    .main-container{
+        height: 800px;
+        background-image: linear-gradient(to right top, #640522, #690524, #6e0626, #740628, #79072a, #851735, #912440, #9d304c, #b24865, #c65f7e, #da7698, #ed8eb3);
+    }
+    .container{
+        height: 600px;
+        background-color:rgb(212, 200, 23);;
+    }
+}
+
+@media(max-width:600px){
+    .main-container{
+        height: 920px;
+        background-image: linear-gradient(to right top, #640522, #690524, #6e0626, #740628, #79072a, #851735, #912440, #9d304c, #b24865, #c65f7e, #da7698, #ed8eb3);
+    }
+    .container{
+        height: 720px;
+        background-color:rgb(212, 200, 23);;
+    }
+}
