@@ -3,8 +3,7 @@
 
 body{
     
-    background-image: linear-gradient(to right top, #640522, #690524, #6e0626, #740628, #79072a, #851735, #912440, #9d304c, #b24865, #c65f7e, #da7698, #ed8eb3);
-    
+    background-image: url(img/bg-img4.jpg);
     background-repeat: no-repeat;
     background-position: center;
     margin: 0;
@@ -19,11 +18,11 @@ body{
 }
 
 h2{ 
-    /*font-size: 29px; */
+    font-size: 29px; 
     font: font-independent;
     font-family: Monoton;
-    color: white;
-    padding-left: 35px;
+    color: #911444;
+    padding-left: 45px;
     padding-bottom: 30px;
 }
 
@@ -31,10 +30,11 @@ h2{
     width: 50%;
     height: 400px;
     padding: 20px;
-    padding-bottom: 30px;
-    margin: auto;
-    border: 1px solid rgb(233, 169, 169);;
-    background-color: white;
+    padding-bottom: 20px;
+    margin: auto; 
+    border: 3px solid #ed8eb3;
+    background-color: rgb(107, 6, 85);
+    color: white;
     text-align: center;
 }
 
@@ -53,7 +53,7 @@ a:hover{
 
 .top h1{
     font-size: 32px;
-    color: black;
+    
     font-weight: bold;
     text-decoration: underline;
     
