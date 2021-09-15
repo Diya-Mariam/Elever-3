@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
 
-
 body{
     
     background-image: url(img/bg-img4.jpg);
@@ -21,7 +20,7 @@ h2{
     font-size: 29px; 
     font: font-independent;
     font-family: Monoton;
-    color: #911444;
+    color: rgba(27, 26, 26, 0.644);
     padding-left: 45px;
     padding-bottom: 30px;
 }
@@ -33,7 +32,7 @@ h2{
     padding-bottom: 20px;
     margin: auto; 
     border: 3px solid #ed8eb3;
-    background-color: rgb(107, 6, 85);
+    background-color: rgba(27, 26, 26, 0.644);
     color: white;
     text-align: center;
 }
@@ -77,7 +76,7 @@ a:hover{
 
     .container{
         padding-top: 2px;
-        height: 478px;
+        height: 410px;
     }
 
     .btn{
@@ -87,22 +86,28 @@ a:hover{
 
 @media(max-width:806px) {
     .main-container{
-        height: 800px;
-        background-image: linear-gradient(to right top, #640522, #690524, #6e0626, #740628, #79072a, #851735, #912440, #9d304c, #b24865, #c65f7e, #da7698, #ed8eb3);
+        height: 830px;
+        
     }
+    h2{
+        color: orange;
+    }
+
     .container{
-        height: 600px;
-        background-color:white;
+        height: 530px;
+        background-color: rgba(27, 26, 26, 0.644) ;
     }
 }
 
 @media(max-width:600px){
     .main-container{
-        height: 920px;
-        background-image: linear-gradient(to right top, #640522, #690524, #6e0626, #740628, #79072a, #851735, #912440, #9d304c, #b24865, #c65f7e, #da7698, #ed8eb3);
+        height: 1000px;        
+    }
+    h2{
+        color: orange;
     }
     .container{
-        height: 720px;
-        background-color:white;
+        height: 700px;       
+        background-color: rgba(27, 26, 26, 0.644) ;
     }
 }
