@@ -1,0 +1,14 @@
+//Enter this code into the image css field
+
+.thumbnail:hover {
+    position:relative;
+    top:-25px;
+    left:-35px;
+    width:500px;
+    height:auto;
+    display:block;
+    z-index:999;
+}
+
+//also add the attribute of class="thumbnail" in each image that you want to enlarge on hovering.
+//eg. <img src="[your hosted image URL]" class="thumbnail" height="100" width="100" />
