@@ -286,10 +286,10 @@
 .container{
     padding: 100px 160px;
     background-color: white;
+    
 }
 
-section{
-    
+section{   
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 20px;
@@ -302,9 +302,18 @@ section img{
     border-radius: 0px;
 }
 
-section img:hover{
-    transform: scale(1.016);
-    border: 1px solid rgb(202, 153, 153);
+img:hover{
+  transform: scale(1.8);
+}
+
+.thumbnail:hover{
+    
+    position: relative;
+    top: -25px;
+    left: -35px;
+    
+    display: block;
+    z-index: 999;
 }
 
 /* FOOTER */
