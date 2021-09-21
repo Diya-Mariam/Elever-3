@@ -312,15 +312,16 @@ img:hover{
  
 }
 
-.thumbnail:hover {
-    position:relative;
-    top:-25px;
-    left:-35px;
-    width:500px;
-    height:auto;
-    display:block;
-    z-index:999;
+.thumbnail:hover{
+    
+    position: relative;
+    width:200px;
+    height:200px;
+    display: block;
+    z-index: 0;
 }
+
+
 
 /* FOOTER */
 
